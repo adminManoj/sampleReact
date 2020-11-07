@@ -73,6 +73,7 @@ class App extends Component {
       
         <form ref="myForm" className="myForm">
         <h1>{this.state.title}</h1>
+        <h2>simple crud example</h2>
           <label>Name</label>
           <input type="text" ref="txtName" placeholder="Enter name" className="formField"/>
           <label>Age</label>
